@@ -19,7 +19,7 @@ overview, reporting, verification = st.tabs(
 )
 
 with overview:
-    st.image("docs/system-overview.svg", use_container_width=True)
+    st.image("docs/system-overview.svg", width="stretch")
     st.subheader("What the system is designed to solve")
     left, middle, right = st.columns(3)
     left.metric("Execution authority", "Exchange")
@@ -47,7 +47,7 @@ with overview:
             "Data authority": "Exchange snapshot",
         }],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     st.caption("A dashboard is an operator view only. It cannot place, amend, cancel, or close an order.")
 
@@ -92,7 +92,7 @@ with reporting:
             },
         ],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     st.info(
         "SQLite is the durable audit ledger. Google Sheets is rebuildable downstream reporting; "

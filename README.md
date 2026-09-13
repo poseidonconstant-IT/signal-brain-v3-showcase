@@ -71,6 +71,7 @@ python -m venv .venv
 | --- | --- |
 | `showcase_app.py` | Interactive, read-only portfolio walkthrough |
 | `docs/architecture.md` | Architecture, authority, and recovery details |
+| `docs/RECRUITER_GUIDE.md` | Concise engineering walkthrough and verification evidence |
 | `docs/system-overview.svg` | Sanitized architecture diagram |
 | `PUBLIC_SCOPE.md` | What is intentionally excluded from this public repo |
 

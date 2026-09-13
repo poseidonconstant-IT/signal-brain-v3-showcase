@@ -10,6 +10,15 @@ balances, order identifiers, production data, or exchange execution code**.
 
 ![System architecture](docs/system-overview.svg)
 
+## Sanitized dashboard snapshot
+
+![Portfolio-safe dashboard snapshot](assets/live-dashboard-sanitized.png)
+
+This is a portfolio-safe capture of the actual read-only dashboard interface.
+Account values, realized results, market prices, audit payloads, order
+identifiers, and timestamps are redacted. It is an interface demonstration,
+not a live operating-state report or a performance claim.
+
 ## Problem
 
 API-driven trading workflows are vulnerable to operational drift: an order can

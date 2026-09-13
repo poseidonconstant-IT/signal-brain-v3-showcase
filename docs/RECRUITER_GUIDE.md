@@ -62,14 +62,10 @@ python -m venv .venv
 .venv/bin/streamlit run showcase_app.py
 ```
 
-The walkthrough has three views:
-
-- **Operations overview** — component boundaries, a fabricated operator view,
-  and the restart/close-event sequence.
-- **Reporting boundary** — fabricated, downstream-only reporting examples and
-  data-quality labels.
-- **Verification evidence** — test result context and the explicit public
-  scope guarantees.
+The walkthrough intentionally uses one concise, fabricated dashboard. The
+architecture, reporting boundary, recovery flow, and test evidence stay in
+this repository so a viewer can inspect them without navigating a multi-tab
+demo.
 
 For deeper detail, see [architecture.md](architecture.md) and
 [PUBLIC_SCOPE.md](../PUBLIC_SCOPE.md).
